@@ -69,21 +69,11 @@ Consulta la página de ayuda o el foro de la comunidad para ver el avance en cad
 Algunas aplicaciones exclusivas requieren del entorno de escritorio, debido al kit de interfaz. Si lo usas en otros entornos, consumiría más recursos.
 
 ## Galería
-<div class="row t60">
-    <div class="medium-6 columns b30">
-      <div class="flex-video">
-            <iframe width="1280" height="720" src="//www.youtube.com/embed/GTdVUvjTJUg" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div><!-- /.medium-6.columns -->
+<div class="video_wrapper">
+	<iframe src="https://www.youtube.com/embed/GTdVUvjTJUg?rel=0&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
-    <div class="medium-6 columns b30">
-      <div class="row">
-          <div class="medium-12 columns t30">
-          <img src="{{ site.urlimg }}manjaro-deepin-17.0.2.png" alt="Manjaro 17.0.2">
-          </div><!-- /.medium-4.columns -->
-      </div>
-    </div><!-- /.medium-6.columns -->
-</div><!-- /.row -->
+<img src="{{ site.urlimg }}manjaro-deepin-17.0.2.png" alt="Manjaro 17.0.2"></img>
 
 
 ## Código fuente
@@ -97,7 +87,3 @@ Deepin usa su propia interfaz gráfica desarrollada en [DTK]{{ site.url }}{{ sit
 
 ## Lectura adicional
 * [Sitio web](https://www.deepin.org/en/developer-community/architectural-design/)
-
-### Más en Manual
-{: .t60 }
-{% include list-posts category='manual' entries='3'%}
