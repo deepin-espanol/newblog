@@ -2,29 +2,29 @@
   links:
     - name: Home
       link: /
-    - name: Portfolio
-      link: /portfolio/
+    - name: Presentación
+      link: /presentacion/
     - name: Blog
       link: /blog/
-    - name: About
+    - name: Acerca de
       link: /about/
-    - name: Contact
-      link: /contact/
+    - name: Avances
+      link: /historial/
 - title: Social
   links:
     - name: Facebook
-      link:
+      link: https://www.facebook.com/DeepinOSenEspanol/
       social_icon: Facebook
       new_window: true
     - name: Twitter
-      link:
+      link: https://twitter.com/linux_deepin
       social_icon: Twitter
       new_window: true
     - name: Google+
-      link:
+      link: https://plus.google.com/communities/115544729561220868525
       social_icon: Google Plus
       new_window: true
-    - name: LinkedIn
-      link:
-      social_icon: LinkedIn
+    - name: Telegram
+      link: https://t.me/deepinenespanol
+      social_icon: Telegram
       new_window: true
