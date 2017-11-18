@@ -1,9 +1,9 @@
 links:
-- name: Portfolio
-  link: /portfolio/
+- name: Actividades
+  link: /actividades/
 - name: Blog
   link: /blog/
-- name: About
+- name: Acerca de
   link: /about/
-- name: Contact
-  link: /contact/
+- name: Ayuda
+  link: /database/
