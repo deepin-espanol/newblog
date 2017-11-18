@@ -9,8 +9,8 @@ disqus_shortname:
 description: Jekyll template with example content for a web agency.
 
 # Author details for the jekyll-seo-tag gem
-author: Deepin en Español
-  name:
+author:
+  name: Deepin en Español
   email:
   twitter: # twitter username without the @ symbol
 
