@@ -8,9 +8,10 @@ categories:
 date: 2017-10-02
 ---
 
+Este es una página web cualquiera. Mientras que añadimos más cosas, iremos mejorando, creciendo y hacer grande. De todas formas, estamos ayudándote, ayudando a otros.
+
 <img src="{{ site.baseurl }}/images/posts/open.jpg" alt="Abierto. Crédito a Pixabay">
 
-Este es una página web cualquiera. Mientras que añadimos más cosas, iremos mejorando, creciendo y hacer grande. De todas formas, estamos ayudándote, ayudando a otros.
 
 Creado originalmente el 1 de agosto de 2017, actualizado el 17 de setiembre.
 
