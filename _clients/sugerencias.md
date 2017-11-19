@@ -19,4 +19,4 @@ Como detalle adicional, la página web consume la menor cantidad de recursos pos
 
 ## Qué hacer
 
-Tenemos una página de [catálogo que aclara la utilidad de las aplicaciones]({{ site.url }}{{ site.baseurl }}/info/contacto/)
+Tenemos una página de [catálogo que aclara la utilidad de las aplicaciones]({{ site.url }}{{ site.baseurl }}/basedata/apps/)

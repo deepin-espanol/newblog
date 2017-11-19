@@ -49,4 +49,4 @@ Hay situaciones en que las frases deben apuntar a un significado:
 
 * Para la explicación de modos verbales citamos a [About en Español](https://www.aboutespanol.com/los-modos-verbales-2879639)
 * Para traducciones automáticas recurre a DeepL, Yandex, Bing o Google.
-* Tienes la [información de contacto]({{ site.url }}{{ site.baseurl }}/info/contacto/) para comunicar con los colaboradores.
+* Tienes la [información de contacto]({{ site.url }}{{ site.baseurl }}/contact/) para comunicar con los colaboradores.
