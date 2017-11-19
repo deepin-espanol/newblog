@@ -8,7 +8,7 @@ categories:
 date: 2017-10-02
 ---
 
-<img src="{{ site.urlimg }}posts/open.jpg" alt="Abierto. Crédito a Pixabay">
+<img src="{{ site.baseurl }}/images/posts/open.jpg" alt="Abierto. Crédito a Pixabay">
 
 Este es una página web cualquiera. Mientras que añadimos más cosas, iremos mejorando, creciendo y hacer grande. De todas formas, estamos ayudándote, ayudando a otros.
 
