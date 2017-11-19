@@ -1,6 +1,6 @@
 - title: Pages
   links:
-    - name: Home
+    - name: Inicio
       link: /
     - name: Presentación
       link: /presentacion/
@@ -27,4 +27,8 @@
     - name: Telegram
       link: https://t.me/deepinenespanol
       social_icon: Telegram
+      new_window: true
+    - name: Transifex
+      link: https://www.transifex.com/linuxdeepin/
+      social_icon: Global
       new_window: true
