@@ -12,6 +12,10 @@
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
 
+	{% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="5; url=/">
+	{% endif %}
+
 	{% seo %}
 	{% feed_meta %}
 

@@ -12,7 +12,7 @@ A partir de estos momentos, anunciamos una versión renovada de Deepin en Españ
 
 <img src="{{ site.baseurl }}/images/posts/cinco.jpg" alt="Cinco. Créditos a  Pixabay (https://pixabay.com/es/n%C3%BAmero-d%C3%ADgito-cinco-5-oro-vidrio-2032513/)">
 
-En esta página explicamos como desarrollamos este blog. Inspirado en un [post de eightportions.com](https://eightportions.com/2016-08-21-Migrate-blog-to-GitLab-pages/). Eso sí, puede tener palabras que nunca habrías oído en la vida.
+En esta página explicamos como desarrollamos este blog. Inspirado en un [post de eightportions.com](https://eightportions.com/2016-08-21-Migrate-blog-to-GitLab-pages/). Eso sí, hay palabras que nunca habrías oído en la vida y para entenderlas recurre al buscador de Internet.
 
 ## Para considerar
 ### Cómo está diseñada esta página
