@@ -28,6 +28,10 @@
       link: https://t.me/deepinenespanol
       social_icon: Telegram
       new_window: true
+    - name: Youtube
+      link: https://www.youtube.com/channel/UCaBJhTgXo6qXluH909ej3Iw
+      social_icon: Youtube
+      new_window: true
     - name: Transifex
       link: https://www.transifex.com/linuxdeepin/
       social_icon: Global

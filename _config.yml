@@ -1,6 +1,6 @@
 title: Deepin en Español
-url: "https://deepin-espanol.github.io"
-baseurl: "/newblog"
+url: "https://deepin-espanol.gitlab.io"
+baseurl: ""
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:

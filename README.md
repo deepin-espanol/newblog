@@ -1,79 +1,43 @@
-# Urban
+# Página web en español de la Comunidad Deepin
 
-Web Agency themed business template for Jekyll. Browse through a [live demo](https://teal-worm.cloudvent.net/).
-Increase the web presence of your agency with this configurable theme.
+![Captura de pantalla](images/_screenshot.png)
 
-![Urban template screenshot](images/_screenshot.png)
+## Un sitio con las últimas novedades
 
-Urban was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
+Traducimos los últimos posts del blog oficial de Deepin para hacer este increíble sistema operativo más accesible a todo el mundo. [¡Entra ya!](https://comunidad-deepin.gitlab.io/blog/)
 
-Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
+## Un sitio con los mejores tutoriales
 
-## Features
+¿Quieres sacar el máximo partido a tu Deepin? Aquí encontraras los mejores tutoriales para hacer de Deepin tu mejor opción frente a otros sistemas operativos. Incluimos lista de aplicaciones y juegos. [¡Entra ya!](https://deepin-espanol.gitlab.io/)
 
-* Contact form
-* Pre-built pages
-* Pre-styled components
-* Blog with pagination
-* Post category pages
-* Disqus comments for posts
-* Staff and author system
-* Configurable footer
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
+## ¿Tienes algún problema?
 
-## Setup
+Si tienes algún problema que no esté en esta página o necesitas ayuda, no dudes en entrar en nuestro grupo oficial de Telegram:
+[Deepin en Español](https://t.me/deepinenespanol)
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics and Disqus keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+## ¿Quieres colaborar?
 
-## Develop
+Deepin en Español tiene un peculiar modo de gestionar las publicaciones. Sin más, visita [cómo añadir archivos en Github](https://deepin-espanol.github.io/tecnico/usargithub) o la recopilación [Tutopost](https://deepin-espanol.github.io/tutopost/).
 
-Urban was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+## ¿Puedo usar las publicaciones de la comunidad Deepin?
 
-Install the dependencies with [Bundler](http://bundler.io/):
+Está página está multilicenciada:
 
-~~~bash
-$ bundle install
-~~~
+* Los materiales escritos están dualmente licenciados bajo Creative Commons Attribution-ShareAlike 4.0 International License y GNU Free Documentation License versión 1.3. Más detalles en la página "licencia" (en la carpeta "info" del código fuente).
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
+* Todos los derechos reservados al/la creador(a) del/los contenido(s), vídeo(s), imágen(es), captura(s) de pantalla, marca(s) registrada(s), entre otros.
 
-~~~bash
-$ bundle exec jekyll serve
-~~~
+* Algunas imágenes de apoyo son de [unplash](http://unsplash.com/) y [pixabay](http://pixabay.com), cuyo uso es gratuito sin regalías. El software de Deepin está bajo [GPLv3 o superior](https://github.com/linuxdeepin/deepin-desktop-base), no aplican fondos de pantalla.
 
-## Editing
+* El código fuente original de la página web es de Urban por CloudCanon, un tema de Jekyll bajo licencia MIT. Contiene algunas modificaciones señaladas en la publicación de noviembre de 2017.
 
-Urban is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
+## Creado y desarrollado por:
 
-### Posts
+* [Alvaro Samudio](https://github.com/alvarosamudio)
+* [Car](https://github.com/CarCM)
+* [Diego Sanguinetti](https://github.com/sguinetti)
+* [Jhalo](https://github.com/jhalounix)
+* [R.garciag](https://github.com/r-garciag)
+* [Alejandro Camerena](https://github.com/ampiflow)
 
-* Add, update or remove a post in the *Posts* collection.
-* The **Staff Author** field links to members in the **Staff** collection.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
-
-### Contact Form
-
-* Preconfigured to work with [CloudCannon](https://app.cloudcannon.com/), but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
-* Sends email to the address listed in company details.
-
-### Staff
-
-* Reused around the site to save multiple editing locations.
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
-
-### Footer
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
-
-### Company details
-
-* Reused around the site to save multiple editing locations.
-* Set in the *Data* / *Company* section.
+-Deepin en Español Team 2017
