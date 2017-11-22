@@ -31,13 +31,22 @@ Está página está multilicenciada:
 
 * El código fuente original de la página web es de Urban por CloudCanon, un tema de Jekyll bajo licencia MIT. Contiene algunas modificaciones señaladas en la publicación de noviembre de 2017.
 
-## Creado y desarrollado por:
+## Miscelánea
+
+### Creado y desarrollado por
 
 * [Alvaro Samudio](https://github.com/alvarosamudio)
 * [Car](https://github.com/CarCM)
 * [Diego Sanguinetti](https://github.com/sguinetti)
 * [Jhalo](https://github.com/jhalounix)
 * [R.garciag](https://github.com/r-garciag)
-* [Alejandro Camerena](https://github.com/ampiflow)
+* [Alejandro Camarena](https://github.com/ampiflow)
 
 -Deepin en Español Team 2017
+
+### Agradecimientos
+
+* [SVGOMG](https://jakearchibald.github.io/svgomg/) para comprimir imagenes
+* [Simpleicons](https://simpleicons.org/icons/telegram.svg) para el logo de Telegram
+* [Material.io](https://material.io/icons/#ic_link) para el icono de enalce
+* [MethodDraw](http://editor.method.ac/) para editar el archivo vectorial en línea

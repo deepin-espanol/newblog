@@ -6,7 +6,7 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: Una alternativa en nuestro idioma.
 
 # Author details for the jekyll-seo-tag gem
 author:
@@ -34,11 +34,18 @@ jekyll-archives:
   enabled:
     - "categories"
 
-gems:
+#gemas
+plugins:
   - "jekyll-feed"
   - "jekyll-seo-tag"
-  - "jekyll-paginate"
+  - "jekyll-paginate-v2-redux"
   - "jekyll-archives"
+  - "emoji_for_jekyll"
+  - "jekyll-email-protect"
+
+#renderizado
+markdown: kramdown
+highlighter: rouge
 
 defaults:
   - scope:
@@ -92,3 +99,19 @@ social_icons:
   - Twitter
   - YouTube
   - RSS
+
+# --------------
+# Icons
+
+favicon-32x32:                          'favicon-32x32.png'
+touch-icon-192x192:                     'touch-icon-192x192.png'
+apple-touch-icon-180x180-precomposed:   'apple-touch-icon-180x180-precomposed.png'
+apple-touch-icon-152x152-precomposed:   'apple-touch-icon-152x152-precomposed.png'
+apple-touch-icon-144x144-precomposed:   'apple-touch-icon-144x144-precomposed.png'
+apple-touch-icon-120x120-precomposed:   'apple-touch-icon-120x120-precomposed.png'
+apple-touch-icon-114x114-precomposed:   'apple-touch-icon-114x114-precomposed.png'
+apple-touch-icon-76x76-precomposed:     'apple-touch-icon-76x76-precomposed.png'
+apple-touch-icon-72x72-precomposed:     'apple-touch-icon-72x72-precomposed.png'
+apple-touch-icon-precomposed:           'apple-touch-icon-precomposed.png'
+msapplication_tileimage:                'msapplication_tileimage.png'               # Size 144x144
+msapplication_tilecolor: '#fabb00'

@@ -2,14 +2,16 @@
   links:
     - name: Inicio
       link: /
-    - name: Presentación
-      link: /presentacion/
+    - name: Actividades
+      link: /actividades/
     - name: Blog
       link: /blog/
     - name: Acerca de
       link: /about/
     - name: Avances
       link: /historial/
+    - name: Código fuente
+      link: /source/
 - title: Social
   links:
     - name: Facebook
@@ -28,11 +30,11 @@
       link: https://t.me/deepinenespanol
       social_icon: Telegram
       new_window: true
-    - name: Youtube
+    - name: YouTube
       link: https://www.youtube.com/channel/UCaBJhTgXo6qXluH909ej3Iw
-      social_icon: Youtube
+      social_icon: YouTube
       new_window: true
     - name: Transifex
       link: https://www.transifex.com/linuxdeepin/
-      social_icon: Global
+      social_icon: Link
       new_window: true
