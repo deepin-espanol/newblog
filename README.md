@@ -4,7 +4,7 @@
 
 ## Un sitio con las últimas novedades
 
-Traducimos los últimos posts del blog oficial de Deepin para hacer este increíble sistema operativo más accesible a todo el mundo. [¡Entra ya!](https://comunidad-deepin.gitlab.io/blog/)
+Traducimos los últimos posts del blog oficial de Deepin para hacer este increíble sistema operativo más accesible a todo el mundo. [¡Entra ya!](https://deepin.ovh/blog/)
 
 ## Un sitio con los mejores tutoriales
 

@@ -1,3 +1,7 @@
+---
+layout: compress
+---
+
 <!doctype html>
 
 <html lang="es">
@@ -5,15 +9,24 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="generator" content="Jekyll v{{ jekyll.version }}">
-	<meta itemprop="description" name="description" content="{% if page.subtitle %}{{ page.subtitle | truncate: 160 }}{% else %}{{ page.subtitle | truncate: 160  }}{% endif %}" />
+	<meta name=copyright content="Copyright &#xA9; {{ site.data.company.title }}. Todos los derechos reservados.">
+	<meta itemprop="description" name="description" content="{% if page.subtitle %}{{ page.subtitle | truncate: 160 }}{% else %}{{ site.data.company.description | truncate: 160  }}{% endif %}" />
 
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 
-  <!--Característica: Favicon-->
+	<!-- Enlace Canonical -->
+	<link rel="canonical" href="{{ site.data.company.url }}" />
+
+  <!-- Característica: Favicon -->
 	{% include _favicon.html %}
+	{% include _redirect.html %}
 
 	{% if page.url == "/404.html" %}
         <meta http-equiv="refresh" content="5; url=/">
+	{% endif %}
+
+	{% if page.url == "/database.html" %}
+				<meta http-equiv="refresh" content="5; url=http://ayuda.deepin.ovh">
 	{% endif %}
 
 	{% seo %}
@@ -30,6 +43,7 @@
 			ga("send", "pageview");
 		</script>
 	{% endif %}
+
 </head>
 	<body>
 		<header>

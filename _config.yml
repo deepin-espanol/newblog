@@ -1,9 +1,13 @@
 title: Deepin en Español
-url: "https://deepin-espanol.gitlab.io"
+# Original: https://deepin-espanol.gitlab.io
+url: "http://deepin.ovh"
 baseurl: ""
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
+repo_source: https://gitlab.com/deepin-espanol/deepin-espanol.gitlab.io/tree/master
+official_url: http://deepin.ovh/
+logo: /images/favicon/favicon-32x32.png
 
 # Default description in social shares for the jekyll-seo-tag gem
 description: Una alternativa en nuestro idioma.
@@ -84,6 +88,15 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+
+# ---------
+# Comprimir contenido (compress_html)
+
+compress_html:
+  clippings: all
+  comments:  all
+  endings:   all
+  startings: [html, head, body]
 
 # -----------
 # CloudCannon

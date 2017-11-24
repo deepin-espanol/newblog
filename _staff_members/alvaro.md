@@ -1,5 +1,5 @@
 ---
-name: Álvaro Samudio
+name: Alvaro Samudio
 position: Diseñador y moderador
 image_path: /images/arboles.jpg
 country: Panamá

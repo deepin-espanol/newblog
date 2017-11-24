@@ -24,6 +24,7 @@ En esta página explicamos como desarrollamos este blog. Inspirado en un [post d
 * Motor kramdown para el Markdown
 * Añadido Open Graph para SEO
 * Favicon listos para varios dispositivos
+* Comprensión de datos (efectivo a largo plazo)
 
 ## Sobre Jekyll
 ### Ventajas
@@ -46,13 +47,15 @@ En esta página explicamos como desarrollamos este blog. Inspirado en un [post d
   - Usando su sitio web, al menos Gitlab tiene interfaz fácil de entender
 * Gitlab revisará si el contenido cumple los controles de calidad para que la generación a página estática sea correctamente. A eso lo llamamos "Integración continua"
 * La integración continua funciona cada vez que se suba el contenido mediante un parche ("commit" en inglés) y demora unos segundos (dependiendo del "peso" del parche)
+* Las páginas de Gitlab llevan la URL nombre.gitlab.io. Es posible que exista una [limitación](https://gitlab.com/gitlab-org/gitlab-ee/issues/302) al redirigir el sitio web
 
 ### Aclaraciones
 * Github también ofrece una versión similar con Github Pages. Sin embargo las razones porque Gitlab es lo ideal son:
-  - Generar páginas de categorías (plugin)
-  - Tabla de contenido (integrado con el plugin)
-  - Errores en la generación de páginas (necesario)
-* El buscador incorporado no proviene de Jekyll sino de su plugin Liquid, el cual permite que los resultados estén actualizados
+  - Generar páginas de categorías (plugin);
+  - Tabla de contenido (integrado con el plugin);
+  - Errores en la generación de páginas (necesario);
+* El buscador incorporado no proviene de Jekyll sino de su plugin Liquid, el cual permite que los resultados estén actualizados;
+* Para aligerar la página web, aunque sea el 1 %, usamos HTML Compress. Se añade al inicio de la plantilla default (antes de HTML) y se establece los parámetros en la configuración;
 * Una limitación: "Legacy pagination logic will stop working on Jan 1st 2018, update your configs before that time." [Documentación](https://github.com/sverrirs/jekyll-paginate-v2/issues/37).
 
 ## Conclusiones
@@ -60,7 +63,10 @@ En Deepin en Español, el blog está actualizado con muchas mejoras, rendimiento
 
 Eso sería un explicación algo sencilla sobre la paǵina que está basada Deepin en Español. Si conocen esta plataforma son bienvenidos, tienen a <a href="https://plus.google.com/communities/115544729561220868525">Google+</a> y <a href="https://github.com/deepin-espanol">Github</a>.
 
+EL código fuente del blog está en <a href="{{ site.repo_source }}">Gitlab+</a>.
+
 ## Lectura adicional
 * [Post "10 Must do Jekyll SEO optimizations"](https://blog.webjeda.com/optimize-jekyll-seo/)
 * [Post de Devexperto.com](https://devexperto.com/blog-gratis-github-jekyll/)
 * [Jekyll en 2017](https://mademistakes.com/articles/using-jekyll-2017/)
+* [Rich-Night](http://rich-knight.com/articles/compressing-html-in-jekyll/)
