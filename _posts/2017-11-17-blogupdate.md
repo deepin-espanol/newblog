@@ -5,7 +5,7 @@ tags:
     - blog
 categories:
     - noticias
-date: 2017-10-02
+date: 2017-11-17
 ---
 
 A partir de estos momentos, anunciamos una versión renovada de Deepin en Español para que cualquier usuario(a) pueda usar. Un diseño más acorde a los tiempos modernos.

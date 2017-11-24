@@ -9,4 +9,5 @@ group :jekyll_plugins do
 	gem 'jekyll-archives', '2.1.1'
 	gem 'emoji_for_jekyll', '0.2.3'
 	gem 'jekyll-email-protect', '1.0.3'
+	gem 'jekyll-sitemap', '1.1.1'
 end

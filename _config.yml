@@ -46,6 +46,7 @@ plugins:
   - "jekyll-archives"
   - "emoji_for_jekyll"
   - "jekyll-email-protect"
+  - "jekyll-sitemap"
 
 #renderizado
 markdown: kramdown

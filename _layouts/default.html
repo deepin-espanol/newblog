@@ -9,13 +9,13 @@ layout: compress
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="generator" content="Jekyll v{{ jekyll.version }}">
-	<meta name=copyright content="Copyright &#xA9; {{ site.data.company.title }}. Todos los derechos reservados.">
-	<meta itemprop="description" name="description" content="{% if page.subtitle %}{{ page.subtitle | truncate: 160 }}{% else %}{{ site.data.company.description | truncate: 160  }}{% endif %}" />
+	<meta name="copyright" content="Copyright &#xA9; {{ site.data.company.title }}. Todos los derechos reservados.">
+	<meta name="description" content="{% if page.subtitle %}{{ page.subtitle | truncate: 160 }}{% else %}{{ site.data.company.description | truncate: 160  }}{% endif %}" />
 
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 
 	<!-- Enlace Canonical -->
-	<link rel="canonical" href="{{ site.data.company.url }}" />
+	<link rel="canonical" href="{{ site.official_url }}" />
 
   <!-- Característica: Favicon -->
 	{% include _favicon.html %}
