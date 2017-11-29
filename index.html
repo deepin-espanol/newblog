@@ -1,6 +1,6 @@
 ---
 title: Deepin en Español
-subtitle: Un sistema operativo diferente, ¡en nuestro idioma!
+subtitle: Un sistema operativo diferente, ¡en nuestro idioma! Trucos para Deepin, personalización, aplicaciones, noticias y aportes de la comunidad.
 ---
 
 <section class="hero diagonal">
@@ -20,8 +20,8 @@ subtitle: Un sistema operativo diferente, ¡en nuestro idioma!
 		</div>
 		<div>
 			<ul class="image-grid">
-				{% for client in site.clients limit: 4 %}
-					<li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}"></a></li>
+				{% for actividad in site.actividads limit: 4 %}
+					<li><a href="{{ site.baseurl }}{{ actividad.url }}"><img alt="Imágenes de las actividades" src="{% include relative-src.html src=actividad.image_path %}"></a></li>
 				{% endfor %}
 			</ul>
 		</div>
@@ -50,7 +50,7 @@ subtitle: Un sistema operativo diferente, ¡en nuestro idioma!
 		<div>
 			<h3 class="editable">Ayuda en línea para todos</h3>
 			<p class="editable">Para los nuevos usuarios ofrecemos una página de ayuda con el manual, tips, ilustraciones, etcétera.</p>
-			<p class="editable"><a href="http://ayuda.deepin.ovh">Encuentra tu duda en la base de datos &rarr;</a></p>
+			<p class="editable"><a href="{{ site.data.externalurl.ayudadeepin }}">Encuentra tu duda en la base de datos &rarr;</a></p>
 			<p class="editable"><a href="{{ site.baseurl }}/redes/">Búscanos en las redes sociales &rarr;</a></p>
 		</div>
 		<div>

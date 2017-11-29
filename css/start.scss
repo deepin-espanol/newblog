@@ -1,0 +1,24 @@
+---
+---
+
+// Los siguientes datos fueron omitidos para la carga inicial.
+// Este es la primera parte, ubicada en HEAD
+// Lo demás será en el archivo screen.css, ubicado al fin de la página
+
+//$pattern: "{{ site.baseurl }}/images/pattern.png";
+//$screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
+
+$brand-color: #0296B9;
+$html-background-color: #222;
+//$secondary-brand-color: #6B85F8;
+//$middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
+
+// Breakpoints
+//$tablet: "(min-width: 450px)";
+$mid-point: "(min-width: 620px)";
+//$desktop: "(min-width: 768px)";
+
+//$section-rotation: 5deg;
+
+@import "elements";
+@import "navigation";

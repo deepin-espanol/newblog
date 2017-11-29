@@ -1,0 +1,5 @@
+# Para añadir información al post, se añade site.data.externalurl.*
+# URL del repositorio para editar (site.data.externalurl.reposource)
+reposource: https://gitlab.com/deepin-espanol/deepin-espanol.gitlab.io/tree/master
+# URL de la Ayuda de Deepin (site.data.externalurl.ayudadeepin)
+ayudadeepin: http://ayuda.deepin.ovh

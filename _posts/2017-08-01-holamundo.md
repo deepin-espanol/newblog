@@ -1,17 +1,14 @@
 ---
 title: "Bienvenidos a Deepin en Español"
-tags:
-    - seguridad
-    - source
 categories:
-    - noticias
+    - comunidad
 date: 2017-08-01
+show_comments: true
 ---
 
 Este es una página web cualquiera. Mientras que añadimos más cosas, iremos mejorando, creciendo y hacer grande. De todas formas, estamos ayudándote, ayudando a otros.
 
 <img src="{{ site.baseurl }}/images/posts/open.jpg" alt="Abierto. Crédito a Pixabay">
-
 
 Creado originalmente el 1 de agosto de 2017, actualizado el 17 de setiembre.
 

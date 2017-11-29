@@ -7,7 +7,7 @@ $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
 $brand-color: #0296B9;
 $html-background-color: #222;
 $secondary-brand-color: #6B85F8;
-$middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
+//$middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
 
 // Breakpoints
 $tablet: "(min-width: 450px)";
@@ -16,11 +16,11 @@ $desktop: "(min-width: 768px)";
 
 $section-rotation: 5deg;
 
-@import "elements";
+//@import "navigation";
+//@import "elements";
 @import "layout";
 @import "contact";
 @import "blog";
 @import "forms";
-@import "navigation";
 @import "footer";
 @import "cloudcannon";

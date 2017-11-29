@@ -1,0 +1,8 @@
+<!--Redirecciones 300 a páginas no encontradas y otros más-->
+{% if page.url == "/404.html" %}
+			<meta http-equiv="refresh" content="5; url=/">
+{% endif %}
+
+{% if page.url == "/database.html" %}
+			<meta http-equiv="refresh" content="0; url={{ site.data.externalurl.ayudadeepin }}">
+{% endif %}
