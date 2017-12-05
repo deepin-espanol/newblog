@@ -6,13 +6,18 @@ subtitle: Obten la última versión en varios portales
 <section class="diagonal alternate">
 	<div class="container halves">
 		<div>
-			<h3 class="editable">Descarga la imagen ISO:</h3>
+			<h3 class="editable">Descarga la imagen ISO</h3>
 			<ul>
-			<li><p><a href="https://www.deepin.org/en/download/)">Sitio web oficial (China)</a>;</p></li>
-			<li><p><a href="https://sourceforge.net/projects/deepin/">En SourceForge</a>;</p></li>
-			<li><p><a href="http://mirrors.kernel.org/deepin-cd/">Kernel.org</a>;</p></li>
-			<li><p><a href="http://mirror1.sjc02.svwh.net/deepin-cd/">Empresa en Silicon Valley, EUA</a>;</p></li>
-			<li><p><a href="http://www.pcds.fi/downloads/iso/debianbased/deepin/about.deepin.debian.html">Enlace Bittorrent</a>;</p></li>
+			<li><p><a href="{{ site.data.externalurl.cddeepin }}">Sitio web oficial (China)</a>;</p></li>
+			<li><p><a href="{{ site.data.externalurl.sourceforge }}">En SourceForge</a>;</p></li>
+			<li><p><a href="{{ site.data.externalurl.googledrive }}">En Google Drive</a>;</p></li>
+			<li><p><a href="{{ site.data.externalurl.meganz }}">En Mega</a>;</p></li>
+			</ul>
+			<p>La versión de 32 bits (marzo de 2017) está disponible y solo recibe actualizaciones en línea.</p>
+			<ul>
+			<li><p><a href="{{ site.data.externalurl.cddeepin32 }}">Sitio web oficial (China)</a>;</p></li>
+			<li><p><a href="{{ site.data.externalurl.kernelorg32 }}">En SourceForge</a>;</p></li>
+			<li><p><a href="{{ site.data.externalurl.sjc0232 }}">En Google Drive</a>;</p></li>
 			</ul>
 		</div>
 		<div>
@@ -27,15 +32,40 @@ subtitle: Obten la última versión en varios portales
 	<div class="container halves">
 		<div>
 			<ul class="image-list">
-				<li><img src="{{ site.baseurl }}/images/icons/deepin-boot-maker.png" alt="Deepin Boot Maker" width="250" style="margin-bottom: 40px;"></li>
+				<li><img src="{{ site.baseurl }}/images/icons/folder-saved-search.png" alt="Carpeta de búsqueda" width="250" style="margin-bottom: 40px;"></li>
 			</ul>
 		</div>
 		<div>
-			<h3 class="editable">Prepra la unidad de arranque</h3>
-			<p class="editable">La unidad de arranque contiene la información para instalar el sistema operativo.</p>
+			<h3 class="editable">Descarga otras imágenes</h3>
+			<p>Si no te funcionan estos enlaces, descárgalos desde sus respositorios:</p>
+			<ul>
+			<li><p><a href="http://mirrors.kernel.org/deepin-cd/">Kernel.org</a></p></li>
+			<li><p><a href="http://mirror1.sjc02.svwh.net/deepin-cd/">Empresa en Silicon Valley, EUA</a></p></li>
+			</ul>
+			<p>Para descargar vía Bittorent (enlaces no oficiales):</p>
+			<ul>
+			<li><p><a href="http://www.pcds.fi/downloads/iso/debianbased/deepin/about.deepin.debian.html">pcds.fi</a></p></li>
+			<li><p><a href="http://linuxtracker.org/index.php?page=torrent-details&id=ab76a1a29d39dfdd484a9bf178366e994df5d148">LinuxTracker</a></p></li>
+			</ul>
+			<p>
+		</div>
+	</div>
+</section>
+
+
+<section class="diagonal alternate">
+	<div class="container halves">
+		<div>
+			<h3 class="editable">Prepara la unidad de arranque</h3>
+			<p class="editable">La <a href="{{ site.data.externalurl.ayudadeepin }}/deepin/discoarranque/">unidad de arranque</a> contiene la información para instalar el sistema operativo.</p>
 			<p class="editable">Necesitarás de una unidad USB de 4 GB o un DVD y la ISO de Deepin.</p>
 			<p class="editable">Usa <a href="https://rufus.akeo.ie/?locale">Rufus</a>, <a href="https://unetbootin.github.io">Unetbootn</a> o la propia Deepin Boot Maker.</p>
 			<p class="editable">Con esas aplicaciones ya puedes preparar la unidad en unos minutos.</p>
+		</div>
+		<div>
+			<ul class="image-list">
+				<li><img src="{{ site.baseurl }}/images/icons/deepin-boot-maker.png" alt="Deepin Boot Maker" width="250" style="margin-bottom: 40px;"></li>
+			</ul>
 		</div>
 	</div>
 </section>

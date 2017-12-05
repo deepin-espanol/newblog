@@ -57,7 +57,9 @@ En esta sección añadimos detalles muy completos más allá de Jekyll y Git.
   - Tabla de contenido (integrado con el plugin);
   - Errores en la generación de páginas (necesario);
 * Una limitación: "Legacy pagination logic will stop working on Jan 1st 2018, update your configs before that time". [Documentación](https://github.com/sverrirs/jekyll-paginate-v2/issues/37).
-* Gitlab Pages no soporta redirección de páginas, para solucionar se añadió una etiqueta en la página `redirect` de la carpeta `_layout`.
+* Gitlab soporta dominios CNAME. El dominio es `deepin.ovh`, cortesía de Alex Ávalo.
+  - Sin embargo, Gitlab Pages no soporta redirección de páginas, para solucionar se añadió una etiqueta en la página `redirect` de la carpeta `_layout`.
+  - Para los curiosos OVH es la [empresa](http://ovh.es/) que distribuye este dominio y los servicios en la nube
 
 ### Plantilla
 * El diseño de la página web es de CloudCannon con su plantilla Urban. Licenciado bajo MIT.
@@ -105,9 +107,10 @@ En Deepin en Español, el blog está actualizado con muchas mejoras, rendimiento
 
 Eso sería un explicación algo sencilla sobre la paǵina que está basada Deepin en Español. Si conocen esta plataforma son bienvenidos, tienen a <a href="https://plus.google.com/communities/115544729561220868525">Google+</a> y <a href="https://github.com/deepin-espanol">Github</a>.
 
-EL código fuente del blog está en <a href="{{ site.data.externalurl.reposource }}">Gitlab+</a>.
+El **código fuente del blog** está en <a href="{{ site.data.externalurl.reposource }}">Gitlab+</a>.
 
 ## Lectura adicional
+* [Comentarios del CEO de Deepin Wuhan sobre el blog](https://bbs.deepin.org/forum.php?mod=viewthread&tid=149599&extra=)
 * [Post "10 Must do Jekyll SEO optimizations"](https://blog.webjeda.com/optimize-jekyll-seo/)
 * [Post de Devexperto.com](https://devexperto.com/blog-gratis-github-jekyll/)
 * [Jekyll en 2017](https://mademistakes.com/articles/using-jekyll-2017/)

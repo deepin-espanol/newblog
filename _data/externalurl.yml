@@ -3,3 +3,14 @@
 reposource: https://gitlab.com/deepin-espanol/deepin-espanol.gitlab.io/tree/master
 # URL de la Ayuda de Deepin (site.data.externalurl.ayudadeepin)
 ayudadeepin: http://ayuda.deepin.ovh
+
+# PÁGINA DE DESCARGAS (site.data.externalurl.*)
+sourceforge: https://sourceforge.net/projects/deepin/files/15.5/Release/
+googledrive: https://drive.google.com/drive/folders/1WnKiU-9HNq-WGxJHu6OVqEQuvRRt5gx3
+meganz: https://mega.nz/#F!hxdQEKza!K__iEn4p4wZASNHGkZjlBA
+# CD oficial desde China
+cddeepin: http://cdimage.deepin.com/releases/15.5/deepin-15.5-amd64.iso
+# Archivo de imágenes de 32 bits
+cddeepin32: http://cdimage.deepin.com/releases/15.3/deepin-15.3-i386.iso
+kernelorg32: http://mirrors.kernel.org/deepin-cd/15.3/deepin-15.3-i386.iso
+sjc0232: http://mirror1.sjc02.svwh.net/deepin-cd/15.3/deepin-15.3-i386.iso

@@ -148,3 +148,7 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+
+exclude_paths:
+    - "changelog/"
+    - "licenses/"

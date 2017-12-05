@@ -39,6 +39,10 @@ También realizamos traducciones para [Transifex](https://www.transifex.com/linu
 
 Más información añadiremos en [la página dedicada](https://deepin-espanol.github.io/info/).
 
+<div class="video_wrapper">
+	<iframe src="https://www.youtube.com/embed/dBAqsfE512g?rel=0&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## »Todos bienvenidos(as)«
 No hay más que decir. ¿Quieres aportar? Tenemos un [Tutopost]({{ site.url }}/tutopost/) a disposición de novatos y experimentados.
 
